@@ -1,0 +1,40 @@
+version: '3.2'
+services:
+  user-app:
+   image: micgogi/player:user-spring
+   restart: always
+   network_mode: host
+   ports:
+     - 8090:8090
+   expose:
+     - 8090
+   depends_on:
+     - player-mysql
+  player-app:
+   image: micgogi/player:player-spring
+   restart: always
+   network_mode: host
+   ports:
+     - 8092:8092
+   expose:
+     - 8092
+   depends_on:
+     - player-mysql
+
+  player-mysql:
+   image: mysql:5.5
+   network_mode: host
+   ports:
+     - "3306:3306"
+   environment:
+     MYSQL_ROOT_PASSWORD: root
+     MYSQL_DATABASE: cricket_database
+  angular:
+    image: micgogi/player:angular-image
+    build: frontend
+    network_mode: host
+    container_name: angular-docker
+    ports:
+      - 4200:4200
+
+

@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body { 
+    height: 100%; 
+    width:100% 
+}
+body { margin: 0; 
+    font-family: Roboto, 
+    "Helvetica Neue", sans-serif; }
+
+
+
+.mat-form-field-empty.mat-form-field.label{
+    color:green;
+  }
+  
+  .mat-form-filed-underline{
+      background-color: green;
+  }
+
+  .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background: yellow;
+    height: 10px;
+  } 

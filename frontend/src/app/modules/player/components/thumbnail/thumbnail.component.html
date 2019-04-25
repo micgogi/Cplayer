@@ -1,0 +1,21 @@
+
+<mat-card class="player-thumbnail" cols="4" rowHeight="100px">
+  <mat-card-header>
+    <mat-card-title id="player-id" class="book-overview">Name:{{player?.name}}</mat-card-title>
+    <mat-card-subtitle id ="player-name">FullName: {{player?.fullName}}</mat-card-subtitle>
+  </mat-card-header>
+
+<img mat-card-image class="player-image" src="assets/download.png">
+  <mat-card-actions class="player-actions">
+      <button  mat-button (click)="Details(player?.pid)" class="player-button" color="primary">   <span style="font-size:12px">Details</span>
+              </button>
+    <button *ngIf="!useWatchlistApi" mat-button (click)="addToWatchlist()" id="add-button" color="primary">
+       <span style="font-size:12px">Add Favourite</span> 
+      </button>
+    <button *ngIf="useWatchlistApi" mat-button (click)="deleteFromWatchlist()" class="player-button"
+      color="primary"> <span style="font-size:12px">Delete</span>
+      
+    </button>
+      
+  </mat-card-actions>
+</mat-card>

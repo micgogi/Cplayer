@@ -1,0 +1,39 @@
+:host {
+    height: 100vh;
+}
+
+.movie-container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300vh;
+    overflow-x: auto;
+} 
+
+@media only screen and (max-width : 820px)  {
+    .movie-container {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 700vh;
+        overflow-x: auto;
+    }     
+}
+        
+        @media only screen and (min-device-width : 830px) and (max-device-width : 1200px) {
+            .movie-container {
+                margin: auto;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                height: 500vh;
+                overflow-x: auto;
+            }             }  
+
+
+

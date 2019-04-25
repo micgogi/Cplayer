@@ -1,0 +1,29 @@
+.player-thumbnail {
+    width: 200px;
+    margin: 10px;
+    height: 60vh;
+}
+
+.player-image {
+    height: 150px;
+    width:150px;
+}
+
+.player-overview {
+    height: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.player-overview::-webkit-scrollbar {
+    width: 2px;
+    background: rgb(190, 176, 176);
+}
+
+.player-actions{
+    text-align: right;
+
+}
+.player-button {
+    font-size: 20px;
+}

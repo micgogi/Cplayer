@@ -1,0 +1,40 @@
+[7890:7890:0322/130515.044630:ERROR:gl_surface_glx.cc(429)] GLX 1.3 or later is required.
+[7890:7890:0322/130515.045783:ERROR:gl_initializer_x11.cc(147)] GLSurfaceGLX::InitializeOneOff failed.
+[7890:7890:0322/130515.069674:ERROR:viz_main_impl.cc(169)] Exiting GPU process due to errors during initialization
+[7855:7855:0322/130515.139245:WARNING:password_store_factory.cc(261)] Using basic (unencrypted) store for password storage. See https://chromium.googlesource.com/chromium/src/+/master/docs/linux_password_storage.md for more information about password storage options.
+[7855:7855:0322/130516.123642:WARNING:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://www.gstatic.com/external_hosted/tone/tone.js (32)
+[7855:7855:0322/130516.127795:INFO:CONSOLE(32)] "%c * Tone.js v13.3.11 * ", source: https://www.gstatic.com/external_hosted/tone/tone.js (32)
+[7855:7855:0322/130516.139481:WARNING:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://www.gstatic.com/external_hosted/tone/tone.js (32)
+[7931:7931:0322/130516.259470:ERROR:gles2_cmd_decoder.cc(3522)] ContextResult::kFatalFailure: fail_if_major_perf_caveat + swiftshader
+[7931:7931:0322/130516.265871:ERROR:gles2_cmd_decoder.cc(3522)] ContextResult::kFatalFailure: fail_if_major_perf_caveat + swiftshader
+[7931:7931:0322/130516.269960:ERROR:gles2_cmd_decoder.cc(3522)] ContextResult::kFatalFailure: fail_if_major_perf_caveat + swiftshader
+[7855:7855:0322/130516.270969:WARNING:CONSOLE(567)] "Registration of backend webgl failed", source: https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js (567)
+[7855:7855:0322/130516.271474:WARNING:CONSOLE(567)] "Error: Mc
+    at new nC (https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js:1095:1684)
+    at https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js:1184:63
+    at bt (https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js:567:201)
+    at https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js:1184:34", source: https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js (567)
+[7855:7855:0322/130516.272355:WARNING:CONSOLE(1209)] "TensorFlow.js deprecation warnings have been disabled.", source: https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js (1209)
+[7855:7855:0322/130516.279320:WARNING:CONSOLE(200)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js (200)
+[7855:7855:0322/130516.279963:WARNING:CONSOLE(199)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js (199)
+[7855:7855:0322/130516.280453:WARNING:CONSOLE(200)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://www.google.com/logos/doodles/2018/bach/r2/bach18.1.js (200)
+[7855:7855:0322/130519.922303:INFO:CONSOLE(76261)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (76261)
+[7855:7855:0322/130520.000778:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: http://localhost:4200/login (0)
+[7855:7855:0322/130520.281101:INFO:CONSOLE(0)] "Form submission canceled because the form is not connected", source: http://localhost:4200/register (0)
+[7855:7855:0322/130520.577489:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: http://localhost:4200/register (0)
+[7855:7855:0322/130520.890113:INFO:CONSOLE(672)] "Register User data:", source: http://localhost:4200/main.js (672)
+[7855:7855:0322/130520.891866:INFO:CONSOLE(1368)] "In token interceptor", source: http://localhost:4200/main.js (1368)
+[7855:7855:0322/130520.932682:INFO:CONSOLE(674)] "User registered", source: http://localhost:4200/main.js (674)
+[7855:7855:0322/130521.252983:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: http://localhost:4200/login (0)
+[7855:7855:0322/130521.277383:INFO:CONSOLE(594)] "Login user", source: http://localhost:4200/main.js (594)
+[7855:7855:0322/130521.277675:INFO:CONSOLE(1368)] "In token interceptor", source: http://localhost:4200/main.js (1368)
+[7855:7855:0322/130521.291968:INFO:CONSOLE(596)] "Login successful", source: http://localhost:4200/main.js (596)
+[7855:7855:0322/130521.296452:INFO:CONSOLE(264)] "token not expired", source: http://localhost:4200/main.js (264)
+[7855:7855:0322/130521.529580:INFO:CONSOLE(937)] "sachin", source: http://localhost:4200/main.js (937)
+[7855:7855:0322/130521.530261:INFO:CONSOLE(1368)] "In token interceptor", source: http://localhost:4200/main.js (1368)
+[7855:7855:0322/130523.184408:INFO:CONSOLE(1010)] "thumbnail", source: http://localhost:4200/main.js (1010)
+[7855:7855:0322/130523.193252:INFO:CONSOLE(768)] "in componant", source: http://localhost:4200/main.js (768)
+[7855:7855:0322/130523.193347:INFO:CONSOLE(769)] "[object Object]", source: http://localhost:4200/main.js (769)
+[7855:7855:0322/130523.193408:INFO:CONSOLE(1368)] "In token interceptor", source: http://localhost:4200/main.js (1368)
+[7855:7855:0322/130528.403402:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.
+[7855:7855:0322/130528.403433:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.
