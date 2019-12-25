@@ -7,13 +7,14 @@ jobs:
 
     runs-on: ubuntu-latest
     services: 
-      image: mysql:5.5
-      env: 
-        MYSQL_DATABASE: cricket_database
-        MYSQL_ROOT_PASSWORD: root
-        MYSQL_CI_URL: jdbc:mysql://mysql/cricket_database
-        MYSQL_USER: test
-        MYSQL_PASSWORD: test
+      mysql:   
+        image: mysql:5.5
+        env: 
+          MYSQL_DATABASE: cricket_database
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_CI_URL: jdbc:mysql://mysql/cricket_database
+          MYSQL_USER: test
+          MYSQL_PASSWORD: test
      
     steps:
     - uses: actions/checkout@v1
