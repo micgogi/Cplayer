@@ -15,5 +15,7 @@ jobs:
         java-version: 1.8
     - name: Init Database
       run: mysql -uroot -h127.0.0.1 -proot -e 'CREATE DATABASE IF NOT EXISTS cricket_database'
+    - name: run script file
+      run: source ./project.sh
     - name: Build with Maven
       run: mvn package --file pom.xml
