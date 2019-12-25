@@ -6,6 +6,14 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    services: 
+      image: mysql:5.5
+      env: 
+        MYSQL_DATABASE: cricket_database
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_CI_URL: jdbc:mysql://mysql/cricket_database
+        MYSQL_USER: test
+        MYSQL_PASSWORD: test
      
     steps:
     - uses: actions/checkout@v1
@@ -13,8 +21,6 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Init Database
-      run: mysql -uroot -h127.0.0.1 -proot -e 'CREATE DATABASE IF NOT EXISTS cricket_database'
     - name: run script file
       run: source ./project.sh
     - name: Build with Maven
