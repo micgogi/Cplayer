@@ -16,6 +16,6 @@ jobs:
     - name: Run Script file
       run: sh ./project.sh 
     - name: Init Database
-      run: mysql -u root -h 127.0.0.1 -p root -e 'CREATE DATABASE IF NOT EXISTS cricket_database'
+      run: mysql -uroot -h127.0.0.1 -proot -e 'CREATE DATABASE IF NOT EXISTS cricket_database'
     - name: Build with Maven
       run: mvn package --file pom.xml
