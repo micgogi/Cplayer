@@ -12,7 +12,7 @@ jobs:
         env: 
           MYSQL_DATABASE: cricket_database
           MYSQL_ROOT_PASSWORD: root
-          MYSQL_CI_URL: jdbc:mysql://mysql/cricket_database
+          MYSQL_CI_URL: jdbc:mysql://localhost/cricket_database
           MYSQL_USER: test
           MYSQL_PASSWORD: test
      
