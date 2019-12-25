@@ -6,12 +6,16 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+     
     steps:
     - uses: actions/checkout@v1
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    - name: Run Script file
+      run: sh ./project.sh 
+    - name: Init Database
+      run: mysql -u root -h 127.0.0.1 -p root -e 'CREATE DATABASE IF NOT EXISTS cricket_database'
     - name: Build with Maven
       run: mvn package --file pom.xml
