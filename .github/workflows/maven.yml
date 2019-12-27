@@ -12,6 +12,7 @@ jobs:
         env: 
           MYSQL_DATABASE: cricket_database
           MYSQL_ROOT_PASSWORD: root
+          MYSQL_CI_URL: jdbc:mysql://mysql/cricket_database  
           MYSQL_USER: test
           MYSQL_PASSWORD: test
      
@@ -21,7 +22,5 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: run script file
-      run: source ./project.sh
     - name: Build with Maven
       run: mvn package --file pom.xml
