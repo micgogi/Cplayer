@@ -1,12 +1,14 @@
+
 name: Java CI
 
 on: [push]
 
 jobs:
   build:
+    
 
     runs-on: ubuntu-latest
-    services: 
+    services:
       mysql:   
         image: mysql:5.5
         env: 
@@ -23,4 +25,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn package --file pom.xml
+      run: mvn install package
