@@ -1,8 +1,8 @@
 spring:
    datasource:
       url: jdbc:mysql://localhost:3306/cricket_database
-      username: ${MYSQL_USER}
-      password: ${MYSQL_PASSWORD}
+      username: root
+      password: root
       driver-class-name: com.mysql.jdbc.Driver
    jpa:
       hibernate:
