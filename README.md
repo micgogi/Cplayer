@@ -1,4 +1,2 @@
 Live Demo
-https://cplayerfront.herokuapp.com/  
-
-Testing1
+https://cplayerfront.herokuapp.com/
